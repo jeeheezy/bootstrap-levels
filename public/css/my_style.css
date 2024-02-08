@@ -1,0 +1,133 @@
+:root {
+  --primary: rgb(0, 76, 255);
+  --primary-active:rgb(3, 3, 174);
+  --danger: rgb(213, 3, 3);
+  --danger-active: rgb(191, 2, 2);
+  --secondary: rgb(123, 123, 123);
+  --secondary-active: rgb(109, 109, 109);
+  --success: green;
+  --success-active: rgb(0, 118, 0);
+  --warning: rgb(255, 204, 0);
+  --warning-hover: rgb(255, 208, 0);
+  --info: rgb(73, 198, 248);
+  --info-hover: rgb(83, 204, 252);
+}
+
+.base-button {
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 7px;
+}
+
+.other-button {
+  color: white;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 7px;
+}
+
+.container {
+  margin: 2rem;
+}
+
+.button {
+  background-color: var(--primary);
+
+}
+.other-button:hover, .base-button:hover {
+  box-shadow: 2px -1px 66px 39px rgba(0,0,0,0.33) inset;
+  -webkit-box-shadow: 2px -1px 66px 39px rgba(0,0,0,0.33) inset;
+  -moz-box-shadow: 2px -1px 66px 39px rgba(0,0,0,0.33) inset;
+}
+
+.unobtrusive {
+  background-color: white;
+}
+
+.unobtrusive:hover {
+  box-shadow: none;
+  color: white;
+}
+
+.button:active {
+  background-color: var(--primary-active);
+}
+.scary-button {
+  background-color: var(--danger);
+}
+.scary-button:active {
+  background-color: var(--danger-active);
+}
+.secondary {
+  background-color: var(--secondary);  
+}
+.secondary:active {
+  background-color: var(--secondary-active);
+}
+.success {
+  background-color: var(--success);
+}
+.success:active {
+  background-color: var(--success-active);
+}
+.warning {
+  background-color: var(--warning);
+  color: black;
+} 
+.warning:hover {
+  box-shadow: none;
+  background-color: var(--warning-hover);
+}
+.info {
+  background-color: var(--info);
+  color: black;
+}
+.info:hover {
+  box-shadow: none;
+  background-color: var(--info-hover);
+}
+.primary-variant {
+  color: var(--primary);
+  border: solid 1px var(--primary); 
+}
+.primary-variant:hover {
+  background-color: var(--primary);
+}
+.secondary-variant {
+  color: var(--secondary);
+  border: solid 1px var(--secondary);
+}
+.secondary-variant:hover {
+  background-color: var(--secondary);
+}
+.success-variant {
+  color: var(--success);
+  border: solid 1px var(--success);
+}
+.success-variant:hover {
+  background-color: var(--success);
+}
+.danger-variant {
+  color: var(--danger);
+  border: solid 1px var(--danger)
+}
+.danger-variant:hover {
+  background-color: var(--danger);
+}
+.warning-variant {
+  color: var(--warning);
+  border: solid 1px var(--warning);
+}
+.warning-variant:hover {
+  background-color: var(--warning);
+  color: black;
+}
+.info-variant {
+  color: var(--info);
+  border: solid 1px var(--info);
+}
+.info-variant:hover {
+  background-color: var(--info);
+  color: black;
+}
